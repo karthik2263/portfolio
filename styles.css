@@ -670,6 +670,7 @@ button {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    padding-bottom: 24px;
 }
 
 .btn-hero-primary {
@@ -769,6 +770,8 @@ button {
     overflow: hidden;
     position: relative;
     z-index: 1;
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
 .portrait-frame img {
@@ -2077,6 +2080,7 @@ button {
 
     .hero-actions {
         justify-content: center;
+        padding-bottom: 32px;
     }
 
     .hero-right {
